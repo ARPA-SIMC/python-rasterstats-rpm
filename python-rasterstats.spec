@@ -15,7 +15,7 @@ Source0:        https://files.pythonhosted.org/packages/source/r/rasterstats/ras
 
 BuildArch:      noarch
 BuildRequires:  python2-devel
-BuildRequires:  python-setuptools
+BuildRequires:  python2-setuptools
 BuildRequires:  %{python3_vers}-devel
 BuildRequires:  %{python3_vers}-setuptools
 
