@@ -1,13 +1,10 @@
-[![Build Status](https://badges.herokuapp.com/travis/ARPA-SIMC/python-rasterstats-rpm?branch=master&env=DOCKER_IMAGE=centos:7&label=centos7)](https://travis-ci.org/ARPA-SIMC/python-rasterstats-rpm)
-[![Build Status](https://badges.herokuapp.com/travis/ARPA-SIMC/python-rasterstats-rpm?branch=master&env=DOCKER_IMAGE=centos:8&label=centos8)](https://travis-ci.org/ARPA-SIMC/python-rasterstats-rpm)
-[![Build Status](https://badges.herokuapp.com/travis/ARPA-SIMC/python-rasterstats-rpm?branch=master&env=DOCKER_IMAGE=fedora:32&label=fedora32)](https://travis-ci.org/ARPA-SIMC/python-rasterstats-rpm)
-[![Build Status](https://badges.herokuapp.com/travis/ARPA-SIMC/python-rasterstats-rpm?branch=master&env=DOCKER_IMAGE=fedora:33&label=fedora33)](https://travis-ci.org/ARPA-SIMC/python-rasterstats-rpm)
-[![Build Status](https://badges.herokuapp.com/travis/ARPA-SIMC/python-rasterstats-rpm?branch=master&env=DOCKER_IMAGE=fedora:rawhide&label=fedorarawhide)](https://travis-ci.org/ARPA-SIMC/python-rasterstats-rpm)
+[![Build Status](https://simc.arpae.it/moncic-ci/python-rasterstats-rpm/centos7.png)](https://simc.arpae.it/moncic-ci/python-rasterstats-rpm/)
+[![Build Status](https://simc.arpae.it/moncic-ci/python-rasterstats-rpm/centos8.png)](https://simc.arpae.it/moncic-ci/python-rasterstats-rpm/)
+[![Build Status](https://simc.arpae.it/moncic-ci/python-rasterstats-rpm/fedora32.png)](https://simc.arpae.it/moncic-ci/python-rasterstats-rpm/)
+[![Build Status](https://simc.arpae.it/moncic-ci/python-rasterstats-rpm/fedora34.png)](https://simc.arpae.it/moncic-ci/python-rasterstats-rpm/)
 [![Build Status](https://copr.fedorainfracloud.org/coprs/simc/stable/package/python-rasterstats/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/simc/stable/package/python-rasterstats/)
 
 # rpm packaging files for python-rasterstats
-
-
 
 ## Introduction
 
