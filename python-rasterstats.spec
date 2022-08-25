@@ -6,7 +6,7 @@
 
 Name:           python-rasterstats
 Version:        0.13.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Summarize geospatial raster datasets based on vector geometries
 
 License:        Apache License, Version 2.0
@@ -14,8 +14,6 @@ URL:            https://pypi.org/project/rasterstats/
 Source0:        https://files.pythonhosted.org/packages/source/r/rasterstats/rasterstats-%{version}.tar.gz#/python-rasterstats-%{version}.tar.gz
 
 BuildArch:      noarch
-BuildRequires:  python2-devel
-BuildRequires:  python2-setuptools
 BuildRequires:  %{python3_vers}-devel
 BuildRequires:  %{python3_vers}-setuptools
 
@@ -37,20 +35,11 @@ The command-line interface allows for easy interoperability with other GeoJSON t
 %prep
 %autosetup -n rasterstats-%{version}
 
-rm -rf %{py3dir}
-cp -a . %{py3dir}
-
 %build
-%{__python2} setup.py build
-pushd %{py3dir}
 %py3_build
-popd
 
 %install
-%{__python2} setup.py install --skip-build --root %{buildroot}
-pushd %{py3dir}
 %py3_install
-popd
 
 %check
 
@@ -60,13 +49,13 @@ popd
 #{__python3} setup.py test
 #popd
 
-%files
-%{python2_sitelib}/*
-
 %files -n %{python3_vers}-rasterstats
 %{python3_sitelib}/*
 
 
 %changelog
+* Thu Aug 25 2022 Emanuele Di Giacomo <edigiacomo@arpae.it> - 0.13.1-2
+- Removed python 2 support
+
 * Wed Oct 16 2019 Daniele Branchini <dbranchini@arpae.it> - 0.13.1-1
 - Initial package
