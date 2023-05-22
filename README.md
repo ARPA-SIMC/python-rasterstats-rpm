@@ -1,7 +1,6 @@
-[![Build Status](https://simc.arpae.it/moncic-ci/python-rasterstats-rpm/fedora36.png)](https://simc.arpae.it/moncic-ci/python-rasterstats-rpm/)
-[![Build Status](https://copr.fedorainfracloud.org/coprs/simc/stable/package/python-rasterstats/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/simc/stable/package/python-rasterstats/)
-
 # rpm packaging files for python-rasterstats
+
+**Note**: this repository is deprecated.
 
 ## Introduction
 
